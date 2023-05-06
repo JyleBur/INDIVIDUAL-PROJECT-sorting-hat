@@ -57,8 +57,8 @@ const createStudent = (e) => {
 const studentListDiv = (studentList) => {
     let domString = "";
 
-
-    for (const student of studentList) {
+    for (let i = 0; i < studentList.length; i++) {
+        const student = studentList[i];
         let houseColor;
         let housePic;
         let houseDescription;
