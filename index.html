@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for the document -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title for the document -->
     <title>Sorting Hat</title>
+    
+    <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
 </head>
 <body>
-
+    <!-- Header -->
     <div class="header">
-        <h1>Hogwarts Sorting Hat</h1>
+        <h1 style="font-family: 'Harry Potter', sans-serif;">Hogwarts Sorting Hat</h1>
+        <p>Welcome students! I am the Sorting Hat, and I will determine which of the four houses 
+            - Gryffindor, Hufflepuff, Ravenclaw, or Slytherin - 
+            you shall belong to. Each house values different qualities, 
+            but there is no wrong house to be in.</p>
+        <button type="button" class="btn btn-outline-dark" id="start-btn">Let's Get Started!</button>
+    </div>
+
+    <!-- Form to add a student -->
+    <div id="add-student" style="display: none;"> 
+        <label>
+            Student Name:</label>
+            <input type="text" class="form-text" id="studentName" placeholder="Enter Name Here" required>
+            <button type="button" class="btn btn-outline-dark" id="add-btn" requried>Submit</button>
+    </div>
+
+    <!-- Search bar to search for students -->
+    <div id="search" class="methodRow" style="display: none;">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="searchInput" placeholder="SEARCH">
+            <label for="searchInput">Search Name or House</label>
+        </div>
+    </div>
+
+    <!-- Buttons to filter students by house -->
+    <div id="house-buttons" style="display: none;">
+        <button type="button" class="btn" style="background-color: green;"id="all-btn">All</button>
+        <button type="button" class="btn" style="background-color: rgba(60, 78, 145);"id="ravenclaw-btn">Ravenclaw</button>
+        <button type="button" class="btn" style="background-color: rgba(54,100,71);"id="slytherin-btn">Slytherin</button>
+        <button type="button" class="btn" style="background-color: rgba(239, 188, 47);"id="hufflepuff-btn">Hufflepuff</button>
+        <button type="button" class="btn" style="background-color: rgba(166, 51, 46);"id="gryffindor-btn">Gryffindor</button>
+    </div>
+
     </div>
 
 
-    <div class="houses-btn">
-    </div>
-
-    <div class="students">
-        
+    <div id="studentClass">
+        <div class="left-side" id="students"></div>
+        <div class="right-side" id="expel"></div>
     </div>
 
 
