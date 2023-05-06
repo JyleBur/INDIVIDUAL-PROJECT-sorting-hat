@@ -1,16 +1,8 @@
 # Sorting Hat
 Project Link https://preeminent-rabanadas-3aae81.netlify.app
 
-## Goals
-The goal of this project is to test your knowledge and to have a FUN time stretching yourself on your FIRST independent application that will become a part of your portfolio.
-
-Focus on MVP. Do not spend a ton of time styling initially. Hit functionality first and then spend time on the styling of the project using bootstrap.
-
-- READ THROUGH ALL OF THE INFORMATION BELOW before planning how you will tackle the project.
-- Check the Issue Tickets to organize your process. You will have all week in class to work on this in class. 
-- PLEASE submit questions in help tickets if you need help. We will guide you to the resources that are available to you.
-- When done, tell an instructor. Everyone will present how far they got AND their favorite piece of code that they wrote to an instructor.
-- MOST OF ALL HAVE FUN!!!!!
+## Overview
+Ability to add students to a list putting your in a random house (decided by the hat). Able to expel students putting them on the bad list.
 
 ## Instructions
 You are in charge of bringing the Hogwarts sorting hat to life! 
