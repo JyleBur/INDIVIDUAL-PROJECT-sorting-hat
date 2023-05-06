@@ -18,7 +18,7 @@ This is what the finished app should have:
 
 In the end, your app will look something like: 
 
-https://i.imgur.com/ij2yEBa.png
+![alt text](https://i.imgur.com/1rDLDoo.png)
 
 
 <!-- [See Demo](https://drt-sortinghat.netlify.app/)
