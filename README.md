@@ -18,7 +18,7 @@ This is what the finished app should have:
 
 In the end, your app will look something like: 
 
-![[screencapture-drt-sorting-netlify-app-2022-04-23-14_28_47](https://user-images.githubusercontent.com/29741570/164943525-d20275be-c312-42d1-9730-0c1fd3fd9834.png](https://i.imgur.com/ij2yEBa.png))
+https://i.imgur.com/ij2yEBa.png
 
 
 <!-- [See Demo](https://drt-sortinghat.netlify.app/)
