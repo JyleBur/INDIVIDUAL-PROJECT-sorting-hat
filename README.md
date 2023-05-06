@@ -23,31 +23,3 @@ In the end, your app will look something like:
 ![alt_text](https://i.imgur.com/qFSzLuI.png)
 ![alt_text](https://i.imgur.com/hJ8tZSE.png)
 
-
-<!-- [See Demo](https://drt-sortinghat.netlify.app/)
- -->
-## Technical Requirements
-- You MUST plan your project and highly suggest using issue tickets. There are a few that have been provided for you to use already. Continue to add to these so you know what work you need to complete. 
-- You MAY use the `renderToDom()` function that we worked on in class, but you also need to be able to explain it if you use it
-- You have to create a data structure for your project. Review all the elements that need to be on the DOM and create the structure accordingly
-- You must use [Boostrap](https://getbootstrap.com/) to style your page components
-- You must use a loop other than a `for loop`
-- Your JS file should be comprised of functions, no actions should happen in your code outside of a function except for your initial `startApp()` function
-- Your code MUST be YOUR code. Do not copy and paste code into your project. Type every bit of it out
-- Your HTML and JS should all have proper indentation
-- Helpful Form: An error message shows if a user tries to sort a student without filling out the form
-- Voldermort's Army: Create a separate container of cards that hold the cards for students that have been expelled. These should be styled differently from Hogwarts students.
-- Add filter buttons to filter the non-expelled students by house
-
-## DEFINITION OF DONE
-Once you have completed all the technical requirments, you should complete the following:
-- [README Requirements](https://github.com/orgs/nss-evening-web-development/discussions/13)
-- **RECOMMENDED** Loom Video: [Sign up for Loom](https://www.loom.com/signup) and record a video of you walking through your app 
-
-## Expel Button Hints
-Think of a way you can expel students without just hiding those divs on the page. This would mean when the button is clicked you modify the array of students and pass the new array into your `renderToDom()` function.  Double hint - put a unique id in the student object when you create them.
-
-## Optional Bonus
-- House Colors: The color of the student's card changes depending on which house they were sorted.
-- Card Sorting/Ordering: Sort the student cards by some criteria (i.e. alphabetically by name, by house)
-
